@@ -1,0 +1,39 @@
+@media screen and (max-width: 425px){
+	
+.deck {
+    width:300px;
+    max-height: 340px;
+    min-height: 340px;    
+    padding:10px; 
+}
+
+.deck .card {
+    height: 63px;
+    width: 63px; 
+    box-shadow: 3px 3px 8px 0 rgba(46, 61, 73, 0.5);     
+} 
+
+.deck .card.show {
+    font-size: 33px;
+}
+
+.deck .card.match {
+    
+    font-size: 33px;
+}
+
+.score-panel .stars {
+    margin: 0 5px 0 35px;
+}
+
+.score-panel .restart {
+    float: right;
+    padding-right: 35px;
+}
+
+.modal{
+ 	width: 200px; 
+    height: 180px;
+    margin-top: -85%;
+    font-size: 130%;     
+}
