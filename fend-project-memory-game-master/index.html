@@ -13,7 +13,7 @@
   <link rel="stylesheet" media="screen and (min-width: 426px) and (max-width: 600px)" href="css/tablet.css">
   <link rel="stylesheet" media="screen and (max-width: 425px)" href="css/mobile.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
 </head>
 
 <body>
@@ -39,14 +39,15 @@
     <ul class="deck"></ul>
   </div>
   <div class="modal">
-    <p>Congradulations, You Won!!!<br> You won in <span class="howManyMoves"></span> moves and <span class="howManySeconds"></span> seconds! <br>
-
-      <span class="changeSize">reset to play again</span></p>
+    <p>Congradulations, You Won!!!</p>
+    <p class="score">
+      Moves: <span class="howManyMoves"></span><br> Seconds: <span class="howManySeconds"></span><br> Stars: <span class="howManyStars"></span></p>
+    <button type="button" class="playAgain" onclick="location.reload()">Click to play again!</button>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/app.js"></script>
-  
 
 </body>
 
 </html>
+

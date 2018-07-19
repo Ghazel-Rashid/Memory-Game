@@ -101,12 +101,12 @@ h1 {
     cursor: pointer;
 }
 
-.modal{
-   visibility: hidden;
+.modal {
+    visibility: hidden;
     width: 380px; 
     height: 200px;
     font-family: 'Kaushan Script', cursive;
-    font-size: 180%;
+    font-size: 180%; 
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -120,6 +120,26 @@ h1 {
     padding: 0 2px 1px 2px;   
 }
 
-.changeSize{
-    font-size: 75%;
+p {
+    margin: 0;
+    padding: 0;
 }
+
+.score {
+   font-size: 80%;
+}
+
+.playAgain {
+    background-color: rgba(110, 175, 190);
+    border: none;
+    border-radius: 5px;
+    padding: 3% 3%;
+    box-shadow: 2px 1px 5px 0 rgba(46, 61, 73, 0.5); 
+    font-size: 50%;
+}
+
+
+
+
+
+
